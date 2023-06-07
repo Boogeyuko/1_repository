@@ -1,0 +1,451 @@
+body {
+    background: #162831;
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #FFFFFF; 
+}
+
+.cont {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    height: 130px;
+    display: flex;
+}
+
+
+.mainframe {
+    height: 600px;
+    background-color: bisque;
+    background-image: url("../img/swim_.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.logo {
+    margin-top: 37px;
+    height: 60px;
+    width: 60px;
+}
+
+.sente_links > a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sente_links {
+    margin-top: 58px;
+    margin-left: 190px;
+}
+
+.menu_btn {
+    height: 36px;
+    width: 155px;
+    background-color: #018ABE;
+    margin-top: 50px;
+    margin-left: 181px;
+    border-radius: 3px;
+}
+
+.menu_btn > p {
+    margin: 0;
+    margin-top: 9px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.mainframe > p {
+    
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    padding-top: 136px;
+}
+
+.mainframe > h1 {
+    color: #FFFFFF;
+    width: 558px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    margin-top: 51px;
+}
+    
+.leaf_1 {
+    left: 434px;
+    top: 146px;
+    position: absolute;
+}
+
+.leaf_2 {
+    right: 434px;
+    top: 146px;
+    position: absolute; 
+}
+
+.secondframe {
+    margin-top: 60px;
+
+}
+
+.secondframe_left {
+    height: 540px;
+    width: 416px;
+    background-image: url("../img/swim_0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondframe_title {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondframe_title > img {
+    height: 14px;
+    width: 28px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.secondframe_title > h2 {
+    margin: 0px;
+    margin-right: 45px;
+    margin-left: 45px;
+    
+}
+
+ h3 {
+    color:#FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+}
+
+.secondframe_left {
+    position: relative;
+
+}
+
+.secondframe_left > h3 {
+    padding-top: 456px;
+    padding-left: 50px;
+
+}
+
+.bottom {
+    background-color:#018ABE;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.secondframe_right {
+    margin-left: 24px;
+    position: relative;
+    width: 856px;
+    height: 540px;
+}
+
+.secondframe_right > div {
+    background-image: url("../img/swim_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 420px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.secondframe_content {
+    display: flex;
+}
+
+.secondframe_right > div > h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 24px;
+    margin: 0;
+    width: 372px;
+    
+}
+
+.secondframe_right_2 {
+    right: 0;
+    top: 0;
+}
+
+.secondframe_right_3 {
+    left: 0;
+    bottom: 0;
+}
+
+.secondframe_right_4 {
+    right: 0;
+    bottom: 0;
+}
+
+.thirdframe {
+    margin-top: 60px;
+}
+
+.thirdframe_title {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.thirdframe_title >h2 {
+    margin: 0px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.thirdframe_title >img {
+    height: 14px;
+    width: 28px;
+}
+
+.thirdframe_content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdframe_left {
+    position: relative;
+    width: 466px;
+    height: 240px;
+    margin-top: 30px;
+}
+
+
+pre {
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 140%;
+    
+}
+
+.thirdframe_right {
+    position: relative;
+    margin-left: 100px;
+    width: 525px;
+    height: 855px;
+    right: 0;
+
+}
+
+.thirdframe_right >img {
+    top: 0px;
+    right: 0px;
+    width: 525px;
+    height: 373px;
+}
+
+.text_2 {
+    margin-left: 25px;
+    margin-top: 60px;
+    
+}
+
+.fourthframe {
+    margin-top: 60px;
+}
+
+.fourthframe_title {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthframe_title >h2 {
+    margin: 0px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.fourthframe_title >img {
+    height: 14px;
+    width: 28px;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 45px;
+    margin: 5px;
+    margin-right: 45px;
+    margin-left: 45px;
+    
+}
+
+.cc_1 >img {
+    height: 14px;
+    width: 28px;
+    margin-top: 7px;
+}
+
+.cc_2 >img {
+    height: 14px;
+    width: 28px;
+    margin-top: 7px;
+}
+
+.cc_3 >img {
+    height: 14px;
+    width: 28px;
+    margin-top: 7px;
+}
+
+.cc_4 >img {
+    height: 14px;
+    width: 28px;
+    margin-top: 7px;
+}
+.cc_5 >img {
+    height: 14px;
+    width: 28px;
+    margin-top: 7px;
+}
+
+.cc_1 {
+    display: flex;
+    margin-top: 0px;
+}
+
+.cc_2 {
+    display: flex;
+    margin-top: 12px;
+}
+
+.cc_3 {
+    display: flex;
+}
+
+.cc_4 {
+    display: flex;
+}
+
+.cc_5 {
+    display: flex;
+
+}
+
+.fourthframe_content_right {
+    position: relative;
+    margin-left: 100px;
+    width: 525px;
+    height: 855px;
+    right: 0;
+
+}
+
+.fourthframe_content_right img> {
+    top: 0px;
+    right: 0px;
+    width: 525px;
+    height: 455px;
+}
+
+.fourthframe_content {
+    display: flex;
+    justify-content: center;
+}
+
+.fourthframe_content_left {
+    margin-top: 60px;
+}
+
+h5 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;
+    
+    height: 45px;
+    margin: 5px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.cc_1 >h5 {
+    margin-left: 40px;
+}
+.cc_2 >h5 {
+    margin-left: 35px;
+}
+
+.cc_3 >h5 {
+    margin-left: 95px;
+}
+
+.cc_4 >h5 {
+    margin-left: 50px;
+}
+
+.cc_5 >h5 {
+    margin-left: 52px;
+}
+
+.fourthframe_content_right >h4 {
+    margin-top: 20px;
+    text-align: center;
+    
+}

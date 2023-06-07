@@ -1,0 +1,68 @@
+/* --------------------------------form */
+.billing-details>div>input{
+  width: 490px !important;
+  border:none;
+  border-bottom:1px solid #aaaaaa;
+  padding: 0;
+}
+.my_label>span {
+  top: 7px !important;
+}
+.title, .breadcrumb-header {
+  /* font-size: 30px; */
+  font-weight: 800;
+  cursor:default;
+}
+.input::placeholder, .order-col>div, .breadcrumb-tree>li {
+  /* font-size: 18px !important; */
+  cursor:default;
+}
+strong{
+  font-size: 19px;
+  cursor:default;
+}
+
+.label_text {
+  margin-left: 5px;
+  /* font-size: 19px; */
+}
+.delivery-method {
+  margin-top: 30px;
+}
+.primary-btn {
+  /* font-size: 19px; */
+  padding: 15px 30px;
+  cursor: pointer;
+  line-height: 20px !important;
+  font-weight: 700;
+  border-radius: 0 !important;
+
+}
+.primary-btn:hover {
+  line-height: 20px !important;
+  /* font-size: 19px !important; */
+  font-weight: 700 !important;
+  padding: 15px 30px !important;
+  background-color: #fff;
+  color: #D10024;
+  border: 2px solid #D10024 !important;
+}
+
+input:focus, textarea:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* product.html */
+.add-to-cart {
+  margin-top: 20px;
+}
+
+/* 
+.product-name {
+  font-size: 19px !important;
+}
+
+.product-details > div>.review-link, .product-details>p{
+  font-size: 15px;
+} */

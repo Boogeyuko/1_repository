@@ -1,0 +1,11 @@
+.banner{
+    width: 520px;
+    height: 300px;
+    margin: 1em auto;
+}
+
+.banner .imgs img{
+    width: 520px;
+    height: 300px;
+    object-fit: cover;
+}

@@ -1,0 +1,163 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'yuko/css/style.css' %}">
+</head>
+<body>
+    <div class="cont">
+        <div class="menu">
+            <img class="logo" src="{% static 'yuko/img/logo.svg' %}" alt="">
+            <div class="sente_links">
+                <a href="#">Головна</a>
+                <a href="#">Сеанси</a>
+                <a href="#">Відгуки</a>
+                <a href="#">Контакти</a>
+                <a href="#">Новини</a>
+                <a href="#">Про нас</a>
+                <a href="#">Блог</a>
+            </div>
+            <div class="menu_btn" >
+                <p>Записатись на курс</p>
+            </div>
+        </div>
+        <div class="mainframe">
+            <img class="leaf_1" src="{% static 'yuko/img/leaf_1.svg' %}">
+            <img class="leaf_2" src="{% static 'yuko/img/leaf_2.svg' %}">
+            <p>{{ main.description }}</p>
+            <h1>{{ main.title }}</h1>
+        </div>
+        <div class="secondframe">
+            <div class="secondframe_title">
+                <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                <h2>{{ main_1.description_2 }}</h2>
+                <img src="{% static 'yuko/img/leaf_2.2.png' %}" alt="">
+            </div>
+            <div class="secondframe_content">
+                <div class="secondframe_left">
+                    <h3>{{ main.text_1 }}</h3>
+                    <div class="bottom"></div>
+                </div>
+                <div class="secondframe_right">
+                    <div class="secondframe_right_1">
+                        <h3>{{ main.text_2 }}</h3>
+                    </div>
+                    <div class="secondframe_right_2">
+                        <h3>{{ main.text_3 }}</h3>
+                    </div>
+                    <div class="secondframe_right_3">
+                        <h3>{{ main.text_4 }}</h3>
+                    </div>
+                    <div class="secondframe_right_4">
+                        <h3>{{ main.text_5 }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thirdframe">
+            <div class="thirdframe_title">
+                <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                <h2>Про RitmStyle</h2>
+                <img src="{% static 'yuko/img/leaf_2.2.png' %}" alt="">
+            </div>
+            <div class="thirdframe_content">
+                <div class="thirdframe_left">
+                    <div class="text_1">
+                        <h3>RitmStyle масаж</h3>
+                        <pre>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in
+purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat
+consectetur etiam a sitvdiam in imperdiet amet. Diam nisl, ipsum
+suscipit amet. Eleifend amet habitasse proin quis adipiscing.
+
+Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas
+dictumst quam. Felis amet diam, non augue massa. Egestas molestie 
+lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.
+                        </pre>
+                    </div>
+                </div>
+                <div class="thirdframe_right">
+                    <div class="img_1">
+                        <img src="{% static 'yuko/img/third_frame_content.png' %}" alt="">
+                    </div>
+                    <div class="text_2">
+                        <h3>RitmStyle гідротерапія</h3>
+                        <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras
+quis ac a non ut viverra turpis eget. Hendrerit quis pulvinar massa
+ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu,
+pulvinar penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam
+tincidunt dui viverra. Eget quis ultricies sem nunc risus senectus
+luctus ultricies. Enim feugiat pharetra pharetra et.
+
+Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit
+ornare molestie. Ipsum nisi id sed tempor elementum. Mi nunc eget
+pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. 
+Hendrerit blandit in augue vel mi quam magna egestas. Fringilla ac
+lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed
+tristique tellus enim, netus tempor at elit dui. Ullamcorper 
+hendrerit feugiat libero tellus diam egestas dui tellus odio.
+                         </pre>                       
+                    </div>
+                    
+                </div>
+                    
+               
+                
+                
+            </div>
+            
+            
+        </div>
+        <div class="fourthframe">
+            <div class="fourthframe_title">
+                <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                <h2>Вартість сеансів</h2>
+                <img src="{% static 'yuko/img/leaf_2.2.png' %}" alt="">
+            </div>
+            <div class="fourthframe_content">
+                <div class="fourthframe_content_left">
+                    <div class="cc_1">
+                        <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                        <h4>RitmStyle з зануренням</h4>
+                        <h5>1000 грн</h4> 
+                    </div>
+                    <div class="cc_2">
+                        <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                        <h4>Абонемент на RitmStyle</h4>
+                        <h5>5500 грн</h4> 
+                    </div>
+                    <div class="cc_3">
+                        <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                        <h4>RitmStyle для пар</h4> 
+                        <h5> 600 грн</h4>
+                    </div>
+                    <div class="cc_4">
+                        <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                        <h4>RitmStyle для вагітних</h4> 
+                        <h5>13500 грн</h4>
+                    </div>
+                    <div class="cc_5">
+                        <img src="{% static 'yuko/img/leaf_2.1.png' %}" alt="">
+                        <h4>RitmStyle + фотосесія </h4> 
+                        <h5>11500 грн</h4>
+                    </div>
+                </div>
+                <div class="fourthframe_content_right">
+                    <img src="{% static 'yuko/img/ccccc.png' %}" alt="">
+                    <h4>Подарунковий сертифікат</h4>
+                </div>
+
+            </div>
+        </div>
+                
+    </div>
+    </div>
+    
+</body>
+
+</html>
